@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+<div class="bigdiv" style="width: 100%;">
+  <div class="container1" id="container1">
+    <h2>Hangman Game</h2>
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+      What is your name <input type="text" name="fname">
+      <br>
+      Type a 5 Letter Word <input type="text" name="fword" maxlength="5">
+    </form>
+    <button type="submit" onclick="startGame()" style="width: 15%; border-radius: 30%; color: black; font-size: large;">Start Game?</button>
+  
+  </div>
+  
+  <div class="container3"></div>
+  <br>
+  <div class="container2"></div>
+
+{% endblock %}

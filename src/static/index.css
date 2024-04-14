@@ -1,0 +1,129 @@
+body {font-family: 'Nunito'; background-color: #547980; color: #9DE0AD;}
+form {border: 3px none #f1f1f1;}
+
+
+input[type=text], input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #547980;
+  color: #9DE0AD   ;
+  font-size: 20px;
+  border-color: #547980;
+  font-family: 'Times New Roman', Times, serif;
+}
+form{
+  width: 30%;
+  margin: auto; 
+  text-align: center;
+  font-size: 23px;
+}
+
+button {
+  background-color: #E5FCC2   ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+h2{
+  font-family: 'Nunito';
+  font-size: 55px;
+  margin: auto;
+  margin-top: 100px;
+  width: 90%;
+  padding: 100px;
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+img{
+  height: 500px;
+  width: 500px;
+}
+.letterbtn{
+  background-color: dodgerblue;
+  padding: 14px;
+  margin: 8px;
+  color: bl;
+  cursor: pointer;
+  width: 3%;
+  border-radius: 10%;
+  text-align: center;
+}
+
+.letterbtnchosen{
+  background-color: darkslateblue;
+  padding: 14px;
+  margin: 8px;
+  color: white;
+  cursor: pointer;
+  width: 5%;
+  border-radius: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container1{
+  font-family: 'Nunito';
+  font-size: 35px;
+  margin: auto;
+  margin-top: 100px;
+  width: 90%;
+  padding: 100px;
+  text-align: center;
+  
+}
+.container1after{
+  width: 50%;
+  float: left; 
+  background-color: rgb(61, 92, 107);
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+.container2{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em
+}
+.container3{
+  margin-left: 50%; 
+  background: rgb(104, 79, 75);
+ 
+}
