@@ -1,0 +1,36 @@
+#letterbtn{
+    background-color: dodgerblue;
+    padding: 14px;
+    margin: 8px;
+    color: bl;
+    cursor: pointer;
+    width: 3%;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+h3{
+    text-align: center;
+  }
+img{
+    height: 500px;
+    width: 500px;
+  }
+button:hover {
+    opacity: 0.8;
+  }
+.leftside{
+ background-color: rgb(61, 92, 107);
+
+}
+
+.rightside{
+    background: rgb(104, 79, 75);
+}
+
+.container2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em
+  }
