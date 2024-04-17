@@ -10,18 +10,18 @@
         <div class="col-lg">
             <div class = "leftside">
                 <h3>Your Side</h3>
-                <img class="yourman" src="hangman1.png">
-                <p class="yourbox">Your gang</p>
-                <h4 class="yourword">word</h4>
+                <img class="yourman" src="hangman1.png" id="yourman">
+                <p class="yourbox" class="yourbox">Your gang</p>
+                <h4 class="yourword" id="yourword">word</h4>
             </div>
         </div>
 
         <div class="col-lg">
             <div class="rightside">
                 <h3>The Opposition</h3>
-                <img class= "oppman" src="hangman1png">
-                <p class="oppbox">OPP</p>
-                <h4 class="oppword">_ _ _ _ _</h4>
+                <img class= "oppman" src="hangman1.png" id= "oppman">
+                <p class="oppbox" id="oppbox">OPP</p>
+                <h4 class="oppword" id="oppword">_ _ _ _ _</h4>
             </div>
         </div>
 
@@ -30,36 +30,36 @@
     </div>
     <div class="container2">
         <div class="btn-group" role="group" aria-label="First Row">
-            <button type="button" class="btn btn-secondary" id="letterbtn">A</button>
-            <button type="button" class="btn btn-secondary" id="letterbtn">B</button>
-            <button type="button" class="btn btn-secondary" id="letterbtn">C</button>
-            <button type="button" class="btn btn-secondary" id="letterbtn">D</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">E</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">F</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">G</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">H</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">I</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">J</button>
+            <button type="button" class="btn btn-secondary letterbtn" id="A" onclick=checkLetter2(this.id)>A</button>
+            <button type="button" class="btn btn-secondary letterbtn" id="B" >B</button>
+            <button type="button" class="btn btn-secondary letterbtn" id="C" >C</button>
+            <button type="button" class="btn btn-secondary letterbtn" id="D" >D</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="E" >E</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="F" >F</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="G" >G</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="H" >H</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="I" >I</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="J" >J</button>
         </div>
         <div class="btn-group" role="group" aria-label="Second Row">
-            <button type="button" class="btn btn-secondary"id="letterbtn">K</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">L</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">M</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">N</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">O</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">P</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">Q</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">R</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">S</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="K" >K</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="L" >L</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="M" >M</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="N" >N</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="O" >O</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="P" >P</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="Q" >Q</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="R" >R</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="S" >S</button>
         </div>
         <div class="btn-group" role="group" aria-label="Second Row">
-            <button type="button" class="btn btn-secondary"id="letterbtn">T</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">U</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">V</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">W</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">X</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">Y</button>
-            <button type="button" class="btn btn-secondary"id="letterbtn">Z</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="T" >T</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="U" >U</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="V" >V</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="W" >W</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="X" >X</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="Y" >Y</button>
+            <button type="button" class="btn btn-secondary letterbtn"id="Z" >Z</button>
         </div>
     </div>
   </div>

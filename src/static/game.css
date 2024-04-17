@@ -1,4 +1,4 @@
-#letterbtn{
+.letterbtn{
     background-color: dodgerblue;
     padding: 14px;
     margin: 8px;
@@ -34,3 +34,13 @@ button:hover {
     margin-right: auto;
     width: 25em
   }
+
+.letterbtnchosen{
+    background-color: darkslateblue;
+    padding: 14px;
+    margin: 8px;
+    color: white;
+    cursor: pointer;
+    width: 5%;
+    border-radius: 10%;
+}
