@@ -8,14 +8,15 @@ function getRandomNum(max){
 
 
 function checkLetter2(letter){
-    console.log("I am here")
+    console.log(chosen_word)
     var flag = false
     var gue = document.getElementById("oppword").textContent
     var ching = document.getElementById(letter)
     ching.setAttribute("class", "btn btn-secondary letterbtnchosen")
-
+    let chosen = chosen_word.toUpperCase()
+    console.log(letter)
     for(let i =0; i< word.length;i++){
-        if(letter == chosen_word[i]){
+        if(letter == chosen[i]){
             flag = true
             update2(i,letter)
         }
@@ -41,5 +42,5 @@ function update2(pos, let){
     }
 }
     
-    
+
 }
