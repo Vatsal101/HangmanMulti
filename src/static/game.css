@@ -4,10 +4,14 @@
     margin: 8px;
     color: bl;
     cursor: pointer;
-    width: 3%;
+    width: 5%;
     border-radius: 10%;
     text-align: center;
   }
+
+.alphabet-container{
+  display: none;
+}
 
 h3{
     text-align: center;
@@ -45,6 +49,6 @@ button:hover {
     border-radius: 10%;
 }
 
-.alphabet-container{
+#alphabet-container{
 display: block;
 }

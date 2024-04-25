@@ -11,7 +11,29 @@
         <title>{% block title %} {% endblock %}</title>
     </head>
 
+    
     <body>
+        
+      {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages%}
+
+        <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+           <center> <strong>{{message}}</strong> </center>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span style ="padding-left: 25%; position: relative; bottom: 9px;" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        
+
+
+
+        {% endfor %}
+
+      {% endif %}
+
+      {% endwith %}
+
         <div class="container">
             {% block content %}
             {% endblock %}
