@@ -3,13 +3,14 @@ form {border: 3px none #f1f1f1;}
 
 
 input[type=text], input[type=password] {
-  width: 25%;
+  width: 50%;
   padding: 12px 20px;
   margin: 8px 0;
   background-color: #547980;
   color: #9DE0AD   ;
   font-size: 20px;
-  border-color: #547980;
+  border-color: black;
+  border-radius: 3px;
   font-family: 'Times New Roman', Times, serif;
 }
 form{
@@ -26,7 +27,10 @@ button {
   margin: 8px 0;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 25%;
+  border-radius: 30%; 
+  color: black; 
+  font-size: large;
 }
 h2{
   font-family: 'Nunito';

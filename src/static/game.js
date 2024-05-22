@@ -1,6 +1,7 @@
 const word_list = ["rover", "loser", "mover", "eagle", "evens", "extra"]
 
 const chosen_word = word_list[getRandomNum(word_list.length)]
+console.log(chosen_word)
 
 function getRandomNum(max){
     return Math.floor(Math.random()*max)
@@ -83,13 +84,13 @@ function update2(pos, let){
         var ban2 = banana.textContent.substring(0,pos+1) + let + banana.textContent.substring(pos+2);
     }
     else if(pos==2){
-        var ban2 = banana.textContent.substring(0,pos+3) + let + banana.textContent.substring(pos+4);
+        var ban2 = banana.textContent.substring(0,pos+2) + let + banana.textContent.substring(pos+3);
     }
     else if(pos==3){
-        var ban2 = banana.textContent.substring(0,pos+5) + let + banana.textContent.substring(pos+6);
+        var ban2 = banana.textContent.substring(0,pos+3) + let + banana.textContent.substring(pos+4);
     }
     else if(pos==4){
-        var ban2 = banana.textContent.substring(0,pos+7) + let + banana.textContent.substring(pos+8);
+        var ban2 = banana.textContent.substring(0,pos+4) + let;
     }
 
     banana.innerHTML=ban2;
